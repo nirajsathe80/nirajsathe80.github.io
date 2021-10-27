@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    /* background-color: rgba(113, 119, 121, 0.3); */
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    height: 4800px;
+}
+
+a{
+    display: inline;
+    /* background-color: burlywood; */
+    margin-inline: 20px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    
+    
+}
+#portfolio{
+    color:brown;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 65px;
+   margin-top: -35px;
+}
+
+#header{
+    background-color: lightblue;
+    width: 100%;
+    height: 60px;
+    padding-top: 15px;
+    text-align: end;
+    box-sizing: border-box;
+    
+    
+}
+
+.title{
+   padding-right: 750px;
+   color:brown;
+   font-size: 35px;
+   font-weight: 600;
+}
+
+img{
+    width: 550px;
+    height: auto;
+    float: right;
+   position: relative;
+   top: -100px;
+   right: 30px;
+    
+    
+}
+
+.main{
+    position: relative;
+    top: 180px;
+    left: 180px;
+
+
+}
+
+.content1{
+    color:white;
+    font-size: 30px;
+    word-spacing: 5pxpx;
+    padding-bottom: 0px;
+    font-weight: 500;
+
+}
+
+.content2{
+    font-size: 45px;
+    padding-left: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: cyan;
+}
+
+@keyframes example {
+    0% {color: fuchsia;}
+    25% {color: gold;}
+    50% {color:lawngreen;}
+    75% {color:orchid;}
+    100% {color: magenta;}
+}
+
+.content3 {
+    font-size: 30px;
+    padding-left: 80px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#about {
+    position: relative;
+    top: 880px;
+    height: 710px;
+    border: 3px solid black;
+    background-image: url(background2.jpg);
+    /* display: none; */
+    
+}
+
+
+
+.heading{
+    color:springgreen ;
+    font-size: 35px;
+    /* padding-left: 10px; */
+
+}
+
+.about_me_info{
+    font-size: 27px;
+    width: 70%;
+    word-spacing: 5px;
+    margin-top: 10px;
+    padding-left: 15px;
+    text-indent: 25px;
+    color: lemonchiffon;
+}
+
+.about_me_info::first-letter{
+    font-size: 30px;
+    color:lightpink;
+}
+
+#contact{
+    position: relative;
+    top: 875px;
+    height: 715px;
+    border: 3px solid blue;
+    background-image: url(background3.jpg);
+    /* display: none; */
+}
+
+#contact_me{
+    font-size: 38px ; 
+    /* padding-left: 10px; */
+    /* margin-top: 500px; */
+    padding-top: 200px;
+}
+
+address{
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33px;
+    padding-left: 50px;
+}
+
+#skills{
+   height: 730px;
+   width: 100%;
+   background-color: #333;
+   position: relative;
+   top: 880px;
+   font-size: 30px;
+   color: white;
+}
+
+#skills h1 {
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+#skills li {
+    padding-left: 60px;
+    padding-top: 30px;
+
+}
+
+#accounts {
+    height: 1000px;
+    /* background-color: aqua; */
+    position: relative;
+    top:880px ;
+    border: 3px solid black;
+}
+
+
+
+ 
